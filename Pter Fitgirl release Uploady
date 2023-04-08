@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Fitgirl release Uploady
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      1.3.2
+// @version      1.3.3
 // @description  Game Uploady for Pterclub
 // @author       NeutronNoir, ZeDoCaixao, scatking, ccf2012, fyzzy1943
 // @match        https://pterclub.com/uploadgame.php*
@@ -299,6 +299,7 @@ function parse1337Language(doc) {
                 .replace(/Estonian/g, '爱沙尼亚语')
                 .replace(/Hungarian/g, '匈牙利语')
                 .replace(/Spanish/g, '西班牙语')
+                .replace(/Indonesian/g, '印度尼西亚语')
                 ;
  
     console.log('1337x: ' + lang);
